@@ -1,0 +1,830 @@
+
+.wrapper1{
+	
+	background: url(images/travel.jpg);
+	background-size:cover;	
+	height: 100%;
+}
+.wrapper2{
+	
+	background: url(images/destination.jpg);
+	background-size:cover;
+	height: 100vh;
+}
+.wrapper3{
+	
+	background: url(images/booking.jpg);
+	background-size:cover;
+	height: 100vh;
+}
+.wrapper4{
+	
+	background: url(images/covidtravel.jpg);
+	background-size:cover;
+	height: 100vh;
+}
+
+.navbar{
+	position :relative;
+	height: 80px;
+	width: 100%;
+	background: none;
+}
+
+.navbar ul{
+	
+	float: right;
+	margin-right: 10px;
+}
+.navbar ul li{
+	
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 70px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	padding: 6px 13px;
+	text-decoration: none;
+	/*transition: .4s;*/
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: pink;
+	border-radius: 2px;
+}
+
+
+.wrapper1 h1{
+	position:relative;
+	color: rgb(221, 69, 128);
+	text-align:left;
+	font-size: 50px;
+    width: 1000px;
+	font-weight: bold;
+	margin-left: 50px;
+	
+}
+
+.introduction h3{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 800px;
+	text-align: center;
+	
+	
+}
+.introduction p{
+	
+	margin-left: 250px;
+	font-size: 20px;
+	color : black;
+	width: 300px;
+	text-align: center;
+	align-self: center;
+}
+.entete h1{
+	position:relative;
+	color: rgb(199, 17, 87);
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 0px;
+	margin-right: 100px;
+	width: 2000px;
+	text-align: justify;
+
+}
+.destination1 h1{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 800px;
+	text-align: left;
+
+}
+.destination1 h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 700px;
+	text-align: center;
+
+}
+
+.destination1 p{
+	margin-left: 20px;
+	font-size: 20px;
+	color : black;
+	width: 700px;
+	text-align: left;
+	
+}
+.destination1 #bali1,#bali2{
+    float :right;
+	height:250px;
+	width: 250px;
+	margin-right: 20px;
+	margin-top: 50px;
+	border-radius: 50%
+	
+}
+.lieuxbali h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 600px;
+	text-align: left;
+
+}
+
+
+.lieuxbali #photoKelingking ,.lieuxbali #photoJatiluwih,.lieuxbali #photoTemple{
+	float :right;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+	
+
+}
+
+.lieuxbali #Kelingking ,.lieuxbali #Temple,.lieuxbali #Jatiluwih{
+	float:left;
+	font-size: 20px;
+	color:black;
+	
+}
+
+.lieuxbali #pKelingking ,.lieuxbali #pJatiluwih,.lieuxbali #pTemple{
+	float:left;
+	font-size: 20px;
+	color : black;
+	
+
+}
+
+
+.hotelbali h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 350px;
+	padding-top: 0px;
+	width: 600px;
+	text-align: left;
+
+}
+
+
+.hotelbali #photothestone ,.hotelbali #photocomo,.hotelbali #photosixsenses{
+	float :right;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+.hotelbali #thestone ,.hotelbali #como,.hotelbali #sixsenses{
+	float:left;
+	font-size: 20px;
+	color:black;
+	
+}
+
+.hotelbali #pthestone ,.hotelbali #pcomo,.hotelbali #psixsenses{
+	float:left;
+	font-size: 20px;
+	color : black;
+	
+
+}
+/* css  destintion 2
+*/
+
+
+.destination2 h1{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 100px;
+	padding-top: 80px;
+	width: 800px;
+	text-align: left;
+
+}
+.destination2 h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 80px;
+	padding-top: 0px;
+	width: 400px;
+	text-align: center;
+
+}
+
+.destination2 p{
+	margin-left: 20px;
+	font-size: 20px;
+	color : black;
+	width: 700px;
+	text-align: left;
+	
+}
+.destination2 #paris1,#paris2{
+    float :right;
+	height:250px;
+	width: 250px;
+	margin-right: 20px;
+	margin-top: 50px;
+	border-radius: 50%
+	
+}
+.lieuxparis h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 600px;
+	text-align: left;
+
+}
+
+
+.lieuxparis #phototoureiffel ,.lieuxparis #photoarcdetriomphe,.lieuxparis #photomuseedulouvre{
+	float :right;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+.lieuxparis #toureiffel ,.lieuxparis #arcdetriomphe,.lieuxparis #museedulouvre{
+	float:left;
+	font-size: 20px;
+	color:black;
+	
+}
+
+.lieuxparis #ptoureiffel ,.lieuxparis #parcdetriomphe,.lieuxparis #pmuseedulouvre{
+	float:left;
+	font-size: 20px;
+	color : black;
+	
+
+}
+
+
+.hotelparis h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 350px;
+	padding-top: 0px;
+	width: 600px;
+	text-align: left;
+
+}
+
+.hotelparis #photonovotelparisleshalles,.hotelparis #photothehoxtonparis,.hotelparis #photopassyeiffel{
+	float :right;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+.hotelparis #novotelparisleshalles,.hotelparis #thehoxtonparis,.hotelparis #passyeiffel{
+	float:left;
+	font-size: 20px;
+	color:black;
+	
+}
+
+.hotelparis #pnovotelparisleshallese ,.hotelparis #pthehoxtonparis,.hotelparis #ppassyeiffel{
+	float:left;
+	font-size: 20px;
+	color : black;
+	
+
+}
+
+/*css destination 3*/
+.destination3 h1{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 100px;
+	padding-top: 80px;
+	width: 800px;
+	text-align: left;
+
+}
+.destination3 h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 80px;
+	padding-top: 0px;
+	width: 400px;
+	text-align: center;
+
+}
+
+.destination3 p{
+	margin-left: 20px;
+	font-size: 20px;
+	color : black;
+	width: 700px;
+	text-align: left;
+	
+}
+.destination3 #santorini1,.destination3 #santorini2{
+    float :right;
+	height:250px;
+	width: 250px;
+	margin-right: 20px;
+	margin-top: 50px;
+	border-radius: 50%
+	
+}
+.lieuxsantorini h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 600px;
+	text-align: left;
+
+}
+
+
+.lieuxsantorini #photoamoudibay ,.lieuxsantorini #photoperissablacksansbeach,.lieuxsantorini #photohikingtrailfiraoia{
+	float :right;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+.lieuxsantorini #amoudibay ,.lieuxsantorini #perissablacksansbeach,.lieuxsantorini #hikingtrailfiraoia{
+	float:left;
+	font-size: 20px;
+	color:black;
+	
+}
+
+.lieuxsantorini #pamoudibay ,.lieuxsantorini #pperissablacksansbeach,.lieuxsantorini #phikingtrailfiraoia{
+	float:left;
+	font-size: 20px;
+	color : black;
+	
+
+}
+
+
+.hotelsantorini h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 350px;
+	padding-top: 0px;
+	width: 600px;
+	text-align: left;
+
+}
+
+.hotelsantorini  #photoandoronisconcept,.hotelsantorini  #photogracehotel,.hotelsantorini  #photoastropalacehotel{
+	float :right;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+.hotelsantorini  #andoronisconcept,.hotelsantorini  #gracehotel,.hotelsantorini  #astropalacehotel{
+	float:left;
+	font-size: 20px;
+	color:black;
+	
+}
+
+.hotelsantorini  #pandoronisconcept,.hotelsantorini  #pgracehotel,.hotelsantorini  #pastropalacehotel{
+	float:left;
+	font-size: 20px;
+	color : black;
+	
+
+}
+/*css destination 4*/
+.destination4 h1{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 100px;
+	padding-top: 80px;
+	width: 800px;
+	text-align: left;
+
+}
+.destination4 h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 80px;
+	padding-top: 0px;
+	width: 400px;
+	text-align: center;
+
+}
+
+.destination4 p{
+	margin-left: 20px;
+	font-size: 20px;
+	color : black;
+	width: 700px;
+	text-align: left;
+	
+}
+.destination4 #kyoto1,.destination4 #kyoto2{
+    float :right;
+	height:250px;
+	width: 250px;
+	margin-right: 20px;
+	margin-top: 50px;
+	border-radius: 50%
+	
+}
+.lieuxkyoto h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 600px;
+	text-align: left;
+
+}
+
+
+.lieuxkyoto #photofushimiinari ,.lieuxkyoto #photogiojitemple,.lieuxkyoto #phototempledupavillondor{
+	float :right;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+.lieuxkyoto #fushimiinari ,.lieuxkyoto #giojitemple,.lieuxkyoto #templedupavillondor{
+	float:left;
+	font-size: 20px;
+	color:black;
+	
+}
+
+.lieuxkyoto #pfushimiinari ,.lieuxkyoto #pgiojitemple,.lieuxkyoto #ptempledupavillondor{
+	float:left;
+	font-size: 20px;
+	color : black;
+	
+
+}
+
+
+.hotelkyoto h2{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 350px;
+	padding-top: 0px;
+	width: 600px;
+	text-align: left;
+
+}
+
+.hotelkyoto #phototheritzcarlton,.hotelkyoto #photokanra,.hotelkyoto #photoshimaure{
+	float :right;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+.hotelkyoto #fushimiinari ,.hotelkyoto #giojitemple,.hotelkyoto #templedupavillondor{
+	float:left;
+	font-size: 20px;
+	color:black;
+	
+}
+
+.hotelkyoto #pfushimiinari ,.hotelkyoto #pgiojitemple,.hotelkyoto #ptempledupavillondor{
+	float:left;
+	font-size: 20px;
+	color : black;
+	
+
+}
+.findest{
+	text-align: left;
+	background-color: beige;
+}
+.findest form{
+ margin: 0 auto;
+ max-width: 400px; 
+
+} 
+input, textarea, button
+{ 
+border :black ;
+width: 55%; 
+padding: 15px 10px;
+margin: 1px 0 ; 
+font-family: 'Barlow Condensed', sans-serif;
+border-radius: 8px; 
+}
+textarea{ 
+height: 120px;
+color: black;
+ } 
+button{ 
+background-color: palevioletred; 
+font-weight: bold; 
+font-size: medium;
+} 
+button:hover{ 
+ background-color:palevioletred; 
+ cursor:pointer; 
+
+}
+#finpage{
+	float:right;
+	margin-right: 100px;;
+	width:250px;
+	height: 200px;
+}
+
+.astuces h1{
+	position:relative;
+	color: rgb(221, 69, 128);
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 1500px;
+	text-align: left;
+
+}
+.wrapperpsvsa{
+	background-image: url(images/dest1.jpg);
+	background-size: cover;
+	height: 100%;
+	opacity: 80%;
+}
+.astuces .main .containerpvsa{
+	
+	background-color: beige;
+}
+.containerpvsa .listprincipale .listel1 p{
+	text-align: center;
+}
+.containerpvsa .listprincipale .el3 p, .containerpvsa .listprincipale .el4 p , .containerpvsa .listprincipale .el5 p,.containerpvsa .listprincipale .el6 p ,.containerpvsa .listprincipale.el7 p{
+	text-align: center;
+		
+}
+/* css page covid & voyage*/
+
+.covid-19 #listcovid{
+	height: 1000px;
+	width: 1300px;
+}
+.covid-19 #titre{
+	size: 30px;
+	float: center;
+	color: rgb(221, 69, 128);
+	margin-left: 180px;
+}
+ .info-covid {
+	
+	float: center;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.covid-19 .info-covid .info1 ,.covid-19 .info-covid .info2,.covid-19 .info-covid .info3,.covid-19 .info-covid .info4,.covid-19 .info-covid .info5{
+	float: center;
+	text-align: center;
+}
+.covid-19 .info-covid .info1 h2 ,.covid-19 .info-covid .info2 h2,.covid-19 .info-covid .info3 h2,.covid-19 .info-covid .info4 h2,.covid-19 .info-covid .info5 h2{
+	color:rgb(221, 69, 128);
+}
+.covid-19 #attention{
+	color:red;
+}
+/*css mesure de precaution*/
+
+.mesure-de-precaution .qst1 p,.mesure-de-precaution .qst2 p,.mesure-de-precaution .qst3 p,.mesure-de-precaution .qst4 p{
+	float: center;
+	text-align: center;
+}
+
+.mesure-de-precaution .qst1 h2,.mesure-de-precaution .qst2 h2,.mesure-de-precaution .qst3 h2,.mesure-de-precaution .qst4 h2{
+	color:rgb(221, 69, 128);
+	float: center;
+	text-align: center;
+
+}
+.mesure-de-precaution #precaution{
+	height: 500px;
+	width: 1300px;
+}
+/*pass sanitaire css*/
+.info-pass #passsanitaire{
+	height: 500px;
+	width: 1300px;
+}
+.info-pass .qst1 h2,.info-pass .qst2 h2{
+	color:rgb(221, 69, 128);
+	float: center;
+	text-align: center;
+}
+.containerpass .list1 h2{
+	float: center;
+	text-align: center;
+}
+.info-pass .qst1 p,.info-pass .qst2 p,.containerpass .list1 h2{
+	float: center;
+	text-align: center;
+}
+
+	
+/* reservation css*/
+
+.styled {
+	align-self: center;
+    border: 0;
+	width:fit-content;
+    line-height: 2;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: justify;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: palevioletred;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+	
+}
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	column-width: 150px;
+	height: 100px;
+	align-self: center;
+	text-align: center;
+	
+	margin: auto;
+  }
+  
+  th, td {
+	background-color:bisque
+	
+  }
+  #table1,#table2,#table3{
+	 color:palevioletred;
+	 text-align: center;
+  }
+  .reserver{
+	  align-content: center;
+  }
+
+  /*css resev buttom*/
+  input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+
+  }
+  input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  .reservation{
+	  background-color: beige;
+	  
+
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbarfooter{
+	overflow: hidden;
+	position :static;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right:0;
+	background:pink;
+	float:center;
+}
+
+.navbarfooter ul{
+	
+	float:center;
+	margin-left: 180px;
+}
+.navbarfooter ul li{
+	
+	list-style:upper-alpha;
+	font-size: 20px;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+	
+}
